@@ -40,4 +40,3 @@ Saksham Thakur  | sthakur5
 Shubhender Singh  | ssingh54
 
 [Python]: <https://python.org>
-
