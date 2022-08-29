@@ -13,16 +13,34 @@ Team 12's submission for [HW1](https://github.com/txt/se22/blob/main/docs/hw1.md
 
 ## Installation
 
-Requires [Python] v3.8+.
+Requires [Python] v3.9+.
 Clone the repository and move into the project directory and install the project dependencies. <br>
 
-Make sure you install the libraries listed in ```requirements.txt``` file. <br>
-If you want automated installation then use ```pip```. <br>
-The usage of ```pip``` is listed below but before that make sure you are in right working directory.
+To install the dependencies/packages required for the project install `poetry`
+
 
 ```shell
-pip install -r requirements.txt
+curl https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 -
 ```
+
+To get started you need Poetry's bin directory `(/Users/<username>/Library/Python/3.10/bin)` in your `PATH`
+environment variable.
+```shell
+export PATH="/Users/<username>/Library/Python/3.10/bin:$PATH"
+```
+
+You can test that everything is set up by executing:
+```shell
+poetry --version
+```
+
+Configure poetry virtual environment by
+
+```shell
+poetry env use python3
+```
+
+
 ----
 ## License
 
