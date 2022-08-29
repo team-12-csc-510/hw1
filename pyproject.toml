@@ -5,7 +5,7 @@ description = ""
 authors = ["Ritwik Tiwari <rtiwari2@ncsu.edu>", "Saksham Thakur <sthakur5@ncsu.edu"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.0"
