@@ -1,5 +1,6 @@
-from app import add
 from unittest.mock import Mock, patch
+
+from app import add
 
 
 @patch("app.add")
