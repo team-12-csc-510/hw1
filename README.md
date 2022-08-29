@@ -45,8 +45,8 @@ poetry install
 ----
 ## License
 
-MIT<br>
-**Free Software, Hell Yeah!**
+This project is licensed under MIT license available in [LICENSE](https://github.com/team-12-csc-510/hw1/blob/main/LICENSE.md) file
+
 ----
 
 ## Team
