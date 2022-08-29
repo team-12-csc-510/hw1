@@ -23,11 +23,11 @@ To install the dependencies/packages required for the project install [Poetry]
 curl https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 -
 ```
 
-To get started you need [Poetry]'s bin directory `(/Users/<username>/Library/Python/3.10/bin)` in your `PATH`
+To get started you need [Poetry]'s bin directory `(/Users/<username>/Library/Python/python-version/bin)` in your `PATH`
 environment variable.
-```shell
-export PATH="/Users/<username>/Library/Python/3.10/bin:$PATH"
-```
+
+> Refer [here](https://stackoverflow.com/questions/60768676/what-is-the-default-install-path-for-poetry) for configuring poetry path correctly.
+
 
 You can test that everything is set up by executing:
 ```shell
