@@ -16,14 +16,14 @@ Team 12's submission for [HW1](https://github.com/txt/se22/blob/main/docs/hw1.md
 Requires [Python] v3.9+.
 Clone the repository and move into the project directory and install the project dependencies. <br>
 
-To install the dependencies/packages required for the project install `poetry`
+To install the dependencies/packages required for the project install [Poetry]
 
 
 ```shell
 curl https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 -
 ```
 
-To get started you need Poetry's bin directory `(/Users/<username>/Library/Python/3.10/bin)` in your `PATH`
+To get started you need [Poetry]'s bin directory `(/Users/<username>/Library/Python/3.10/bin)` in your `PATH`
 environment variable.
 ```shell
 export PATH="/Users/<username>/Library/Python/3.10/bin:$PATH"
@@ -34,10 +34,11 @@ You can test that everything is set up by executing:
 poetry --version
 ```
 
-Configure poetry virtual environment by
+Configure [Poetry] virtual environment by
 
 ```shell
 poetry env use python3
+poetry install
 ```
 
 
@@ -57,4 +58,7 @@ Ritwik Tiwari  | rtiwari2
 Saksham Thakur  | sthakur5
 Shubhender Singh  | ssingh54
 
+---
+
 [Python]: <https://python.org>
+[Poetry]: <https://python-poetry.org/>

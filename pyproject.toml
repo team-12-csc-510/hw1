@@ -2,7 +2,7 @@
 name = "project"
 version = "0.1.0"
 description = ""
-authors = ["Ritwik Tiwari <rtiwari2@ncsu.edu>", "Saksham Thakur <sthakur5@ncsu.edu"]
+authors = ["Aditya Tewari <adtewari@ncsu.edu>", "Naman Bhagat <nbhagat2@ncsu.edu>", "Ritwik Tiwari <rtiwari2@ncsu.edu>", "Saksham Thakur <sthakur5@ncsu.edu", "Shubhender Singh <ssingh54@ncsu.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
