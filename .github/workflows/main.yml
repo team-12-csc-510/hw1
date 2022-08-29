@@ -29,7 +29,7 @@ jobs:
           isort --check-only .
           black --check .
           flake8
-          mypy app.py
+          mypy code/app.py
 
       - name: Test with pytest
         run: |
