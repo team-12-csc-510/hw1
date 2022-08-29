@@ -22,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           poetry install
+          pip list
 
       - name: Code quality checks
         run: |
