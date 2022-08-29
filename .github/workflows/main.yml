@@ -22,7 +22,12 @@ jobs:
       - name: Install dependencies
         run: |
           poetry install
+
+      - name: Debugging
+        run: |
+          python --version
           pip list
+          python -m isort --check-only .
 
       - name: Code quality checks
         run: |
